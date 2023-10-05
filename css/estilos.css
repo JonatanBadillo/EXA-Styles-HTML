@@ -2,7 +2,15 @@
 
 }
 
+.calendario{
+    float: left;
+    margin-right: 20px;
+}
 
+
+.calendario table tr{
+    height: 20px; /* para que sea la altura minima de las filas*/
+}
 
 
 td{

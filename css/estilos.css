@@ -1,16 +1,23 @@
-.base-meses{
-
-}
-
 .calendario{
     float: left;
     margin-right: 20px;
+    border: 1px solid black;
+}
+
+.calendario table{
+    border-collapse: collapse; /* combina los bordes de las celdas */
+
+}
+
+.calendario th, .calendario td{
+    border: 1px solid black; /* borde solido en todas las celdas */
+    padding: 5px; /* añade espaciado interno para un mejor aspecto */
+    width: 20px; /* ancho de las celdas en 20px */
+    height: 20px; /* altura de las celdas en 20px */
 }
 
 
-.calendario table tr{
-    height: 20px; /* para que sea la altura minima de las filas*/
-}
+
 
 
 td{

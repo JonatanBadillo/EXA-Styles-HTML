@@ -1,33 +1,28 @@
 .calendario{
     float: left;
-    margin-right: 20px;
-    border: 1px solid black;
+    margin-right: 10px;
+    width: 20%;
+    height: 40%;
 }
 
-.calendario table{
+table{
     border-collapse: collapse; /* combina los bordes de las celdas */
 
 }
 
-.calendario th, .calendario td{
+th, td{
     border: 1px solid black; /* borde solido en todas las celdas */
     padding: 5px; /* añade espaciado interno para un mejor aspecto */
     width: 20px; /* ancho de las celdas en 20px */
     height: 20px; /* altura de las celdas en 20px */
+    text-align: center; 
+}
+
+.calendario-abajo {
+    float: left;
+    margin-top: 20px;
 }
 
 
 
 
-
-td{
-    text-align: center;    
-}
-
-h1{
-    color: red;
-}
-
-p{
-    color: red;
-}

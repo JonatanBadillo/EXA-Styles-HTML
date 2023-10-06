@@ -1,13 +1,14 @@
-.calendario-derecha{
+.calendario{
     float: left;
-    margin-right: 10px;
-    width: 20%;
-    height: 40%;
+    margin-top: 20px;
+    margin-right: 41px;
 }
 
 table{
     border-collapse: collapse; /* combina los bordes de las celdas */
-
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 th, td{
@@ -18,11 +19,7 @@ th, td{
     text-align: center; 
 }
 
-.calendario-abajo {
-    float: left;
-    margin-top: 20px;
-    margin-right: 41px;
-}
+
 
 
 

@@ -8,9 +8,10 @@ table{
     border-collapse: collapse; /* combina los bordes de las celdas */
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
 }
 
-th, td{
+th,td{
     border: 1px solid black; /* borde solido en todas las celdas */
     padding: 5px; /* añade espaciado interno para un mejor aspecto */
     width: 20px; /* ancho de las celdas en 20px */
@@ -20,6 +21,13 @@ th, td{
 
 th{
     color: white;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+
+    color: red;
+
 }
 
 .azul{
@@ -36,6 +44,22 @@ th{
 
 .rosa2{
     background-color: #FDF0F0;
+}
+
+.morado{
+    background-color: #57375D;
+}
+
+.morado2{
+    background-color: #FF3FA4;
+}
+
+.naranja{
+    background-color: #FF9B82;
+}
+
+.naranja2{
+    background-color: #FFC8C8;
 }
 
 

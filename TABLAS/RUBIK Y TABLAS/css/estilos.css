@@ -45,6 +45,7 @@
     display: flex; /* convierte div en contenedor flexible */
     justify-content: center; /* centra horizontalmente el contenido dentro del div */
     align-items: center; /* centra verticalmente el contenido dentro del div */
+    margin-bottom: 20px;
 }
 
 .ventas th{

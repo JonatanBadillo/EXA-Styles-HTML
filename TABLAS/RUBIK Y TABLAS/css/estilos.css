@@ -46,12 +46,12 @@
     justify-content: center; /* centra horizontalmente el contenido dentro del div */
     align-items: center; /* centra verticalmente el contenido dentro del div */
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .ventas th{
     color: white;
     background-color: rgb(20, 135, 235);
-    text-align: center;
 }
 
 .ventas td{

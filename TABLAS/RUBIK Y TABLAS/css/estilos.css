@@ -8,7 +8,7 @@
     border-collapse: collapse; /* combina los bordes de las celdas */
 }
 .tabla-rubik td{
-    border: 3px solid #000; /* Borde sólido de 1 píxel en todas las celdas */
+    border: 3px solid #000; 
     width: 100px;
     height: 100px;
 }
@@ -17,7 +17,7 @@
     text-align: center;
     font-size: 35px;
     background-color: black;
-    line-height: 30px; /* Aumenta la altura de línea */
+    height: 20px !important; /* important para hacerlo más específico */
 }
 
 
@@ -58,4 +58,38 @@
     background-color: rgb(201, 226, 247);
     text-align: center;
 }
+
+.detalle-anual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%; /* ancho máximo del contenedor */
+
+}
+    
+.detalle-anual table {
+    width: 80%; /* ocupa todo el ancho disponible en el contenedor */
+}
+
+
+
+
+
+.negro{
+    background-color: black;
+    color: white;
+}
+
+.azul2{
+    color: white;
+    background-color: rgb(20, 135, 235);
+}
+
+.amarillo2{
+    background-color: rgb(255, 234, 112);
+}
+
+
 

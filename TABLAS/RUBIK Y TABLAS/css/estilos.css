@@ -1,0 +1,39 @@
+.rubik{
+    display: flex; /* convierte div en contenedor flexible */
+    justify-content: center; /* centra horizontalmente el contenido dentro del div */
+    align-items: center; /* centra verticalmente el contenido dentro del div */
+}
+
+.tabla-rubik{
+    border-collapse: collapse; /* combina los bordes de las celdas */
+}
+.tabla-rubik th, td {
+    border: 3px solid #000; /* Borde sólido de 1 píxel en todas las celdas */
+    width: 100px;
+    height: 100px;
+}
+
+.frase-rubik{
+    background-color: black;
+    height: 40px;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.marron{
+    background-color: rgb(77, 12, 12);
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.rojo{
+    background-color: red;
+}

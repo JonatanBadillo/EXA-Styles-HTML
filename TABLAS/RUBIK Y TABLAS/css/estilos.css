@@ -7,18 +7,19 @@
 .tabla-rubik{
     border-collapse: collapse; /* combina los bordes de las celdas */
 }
-.tabla-rubik th, td {
+.tabla-rubik td{
     border: 3px solid #000; /* Borde sólido de 1 píxel en todas las celdas */
     width: 100px;
     height: 100px;
 }
 
-.frase-rubik{
+.frase-rubik {
     text-align: center;
     font-size: 35px;
     background-color: black;
-    height: 35px;
+    line-height: 30px; /* Aumenta la altura de línea */
 }
+
 
 .amarillo{
     background-color: yellow;
@@ -39,3 +40,21 @@
 .rojo{
     background-color: red;
 }
+
+.ventas{
+    display: flex; /* convierte div en contenedor flexible */
+    justify-content: center; /* centra horizontalmente el contenido dentro del div */
+    align-items: center; /* centra verticalmente el contenido dentro del div */
+}
+
+.ventas th{
+    color: white;
+    background-color: rgb(20, 135, 235);
+    text-align: center;
+}
+
+.ventas td{
+    background-color: rgb(201, 226, 247);
+    text-align: center;
+}
+
